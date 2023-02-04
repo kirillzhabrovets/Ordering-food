@@ -9,7 +9,20 @@
   },
   "author": "Kirill",
   "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.27.2",
     "json-server": "^0.17.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "es6-promise": "^4.2.8",
+    "nodelist-foreach-polyfill": "^1.2.0"
   }
 }

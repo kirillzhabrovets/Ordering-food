@@ -1,5 +1,8 @@
 // const express = require("express");
 
+require('es6-promise').polyfill();
+import 'nodelist-foreach-polyfill';
+
 import tabs from '/dist/js/modules/tabs';
 import modal from '/dist/js/modules/modal';
 import timer from '/dist/js/modules/timer';
